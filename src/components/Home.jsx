@@ -19,7 +19,7 @@ function Home() {
           fontSize="30px"
           textAlign="center"
           bg="purple.600"
-          borderTop='2px solid'
+          borderTop="2px solid"
           color="white"
           p="80px"
           className="home--header home--title"
@@ -34,6 +34,7 @@ function Home() {
           borderRadius="15px"
           overflow="hidden"
           boxShadow="0px 20px 25px -5px  rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.4)"
+          className="home-card"
         >
           <img
             objectFit="cover"
@@ -48,10 +49,18 @@ function Home() {
 
           <Stack>
             <CardBody color="purple.600" as="b" p="40" className="home-details">
-              <Text fontSize="xl">Name: Olakunle Hassan</Text>
-              <Text fontSize="xl">Username: @kaylezy</Text>
-              <Text fontSize="xl">Twitter: @iam_kaylezy</Text>
-              <Text fontSize="xl">Title: Frontend Engineer</Text>
+              <Text className="para" fontSize="xl">
+                Name: Olakunle Hassan
+              </Text>
+              <Text className="para" fontSize="xl">
+                Username: @kaylezy
+              </Text>
+              <Text className="para" fontSize="xl">
+                Twitter: @iam_kaylezy
+              </Text>
+              <Text className="para" fontSize="xl">
+                Title: Frontend Engineer
+              </Text>
             </CardBody>
           </Stack>
         </Card>

@@ -415,14 +415,24 @@ input:focus {
   h3 {
     font-size: 18px;
   }
+
+  .home-card {
+    /* margin: auto; */
+    width: 90%;
+    
+  }
   .home-details {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 1.5em;
+    margin-top: -4rem;
     width: 100%;
+    
+  }
+  .para{
+    font-size: 1rem;
+    width: 294px;
   }
   .pagin button {
     margin: 1.5rem 1px 1.5rem 1px;
