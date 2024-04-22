@@ -8,7 +8,10 @@ To retrieve data from the GitHub API, I implemented an API call using the fetch 
 
 To improve error handling, I utilized an error boundary component, which is a React pattern that allows for the catching of JavaScript errors within the component tree and the display of a fallback UI instead of crashing the application. This is a feature introduced in React 16 and can be used to improve the stability of the application by preventing uncontrolled errors from propagating and crashing the entire application.
 
+To checkout the project use this link: https://github-repo-api-fetch.netlify.app/
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
