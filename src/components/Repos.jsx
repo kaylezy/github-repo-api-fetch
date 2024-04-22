@@ -72,7 +72,7 @@ export default function Repos() {
               />
             </div>
               <Filter repos={repos} searchTerm={searchTerm} page={page} id={repos.name} />
-            <Profiles repos={repos} page={page} id={repos.name} />
+            {/* <Profiles repos={repos} page={page} id={repos.name} /> */}
           </div>
         )}
 

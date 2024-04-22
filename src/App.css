@@ -212,15 +212,71 @@ h3 {
   background: transparent;
   font-size: x-large;
   color: rgb(209, 197, 181);
+
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.filter-bar{
+.home-filter {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-block-start: 1rem;
+  font-size: 1.5rem;
+  color: #e9d8fd;
+}
+
+.home-filter-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  width: 80%;
+  padding: 1rem;
+
+  border-radius: 5px;
+  margin-block-start: 1rem;
+  font-size: 1.5rem;
+  color: #e9d8fd;
+}
+
+.filter--repo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6b46c1;
+  box-shadow: 1px 15px 25px 0px;
+  margin: auto;
+  width: 80%;
+  padding: 1rem;
+  border: 1px solid #e9d8fd;
+  border-radius: 5px;
+  margin-block-start: 1rem;
+  font-size: 1.5rem;
+  color: #e9d8fd;
+}
+
+.filter--empty {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-background-color: red;
+  background-color: #6b46c1;
+  box-shadow: 1px 15px 25px 0px;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid #e9d8fd;
+  border-radius: 5px;
+  margin-block-start: 1rem;
+  font-size: 1.5rem;
+  color: #e9d8fd;
+  width: 80%;
 }
 
 .date {
@@ -358,6 +414,15 @@ input:focus {
   .home-cont h1,
   h3 {
     font-size: 18px;
+  }
+  .home-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5em;
+    width: 100%;
   }
   .pagin button {
     margin: 1.5rem 1px 1.5rem 1px;
